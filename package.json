@@ -1,0 +1,46 @@
+{
+  "name": "jungle-task-manager",
+  "author": "Eric Dellai Camargo",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "Teste técnico - Sistema de Tarefas Colaborativo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.18.3",
+  "keywords": [
+    "api-gateway",
+    "docker",
+    "fullstack",
+    "jwt",
+    "microservices",
+    "monorepo",
+    "nestjs",
+    "pnpm",
+    "rabbitmq",
+    "react",
+    "typeorm",
+    "turborepo",
+    "typescript",
+    "websocket"
+  ]
+}
